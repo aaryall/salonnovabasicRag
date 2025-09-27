@@ -45,7 +45,10 @@ const App = () => {
     
     if( !question) return;
     setIsLoading(true);
-    const res = await fetch('http://localhost:8080/generate', {
+const API_URL = import.meta.env.DEV 
+    ? 'http://localhost:8080/generate'     // When running npm run dev
+    : '/api/generate';  // When running npm run build and serve the static files
+    const res = await fetch(API_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
