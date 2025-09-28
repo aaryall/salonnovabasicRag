@@ -13,9 +13,7 @@ Links: [Visit Page](https://salonnova.vercel.app/)
 
 #### POST generate response
 
-```http
-  POST /api/generate
-```
+POST /api/generate
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
@@ -56,21 +54,13 @@ Go to live link - [Visit Page](https://salonnova.vercel.app/)
 ### How to test 
 
 #### Example Question:
-```http
-Are you open on Saturdays, and can I come without an appointment?
-```
+- Are you open on Saturdays, and can I come without an appointment?
 #### ✅ Expected Output:
 
-```http
-Yes, we’re open Saturdays 10–4. Walk-ins are welcome if a stylist is free. Booking is recommended. — Salon Nova
+- Yes, we’re open Saturdays 10–4. Walk-ins are welcome if a stylist is free. Booking is recommended. — Salon Nova
 Sources: ["hours", "walk-ins"]
-````
 
 ## Trade Offs/Gaps
 
-```http
-
-1. Using two LLMs → better accuracy but higher latency
-2. No vector embeddings → limited retrieval capability
-
-```
+- Using two LLMs → better accuracy but higher latency
+- No vector embeddings → limited retrieval capability
