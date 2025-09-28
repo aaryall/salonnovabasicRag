@@ -4,8 +4,8 @@ Links: [Visit Page](https://salonnova.vercel.app/)
 
 ## 🚀 Features
 ```http
--**Query Enhancement**: GPT-mini for query Enhancement.
--**Grounded Answers**: GPT-4o Turbo responds using only FAQ + seed data.
+GPT-mini for query Enhancement
+GPT-4o Turbo responds using only FAQ + seed data
 -**Brand Voice Application**: Tone, style rules, and signoff applied automatically.
 -**Simple UI**: React SPA with FAQ toggle, brand voice, and question input.
 ```
