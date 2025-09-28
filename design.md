@@ -18,4 +18,5 @@
 - Reduce the latency.
 
 # Flow Diagram
+![Salon Nova Architecture](FlowDiagram.png)
 
