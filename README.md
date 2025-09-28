@@ -60,7 +60,3 @@ Go to live link - [Visit Page](https://salonnova.vercel.app/)
 - Yes, we’re open Saturdays 10–4. Walk-ins are welcome if a stylist is free. Booking is recommended. — Salon Nova
 Sources: ["hours", "walk-ins"]
 
-## Trade Offs/Gaps
-
-- Using two LLMs → better accuracy but higher latency
-- No vector embeddings → limited retrieval capability
